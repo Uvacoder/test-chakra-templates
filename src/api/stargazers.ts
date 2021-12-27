@@ -15,8 +15,8 @@ interface Response {
 export const fetchStargazers = async () => {
   const query = `
     query {
-      user (login: "hauptrolle") {
-        repository(name: "chakra-templates") {
+      user (login: "uvacoder") {
+        repository(name: "test-chakra-templates") {
           stargazers {
             totalCount
           }
